@@ -1,0 +1,124 @@
+programa
+
+{
+// autora: Dayliorrane de Jesus Rodrigues
+// data: 27/09/2024
+// RA: 38655739
+
+inteiro decisao
+cadeia resp_enigma
+
+funcao inicio()
+
+{
+
+escreva( "Você é um explorador corajoso, que se aventura pela floresta sussurrante. \n")
+escreva( "Acredite no seu potencial, e encontre todos os tesouros lendários e segredos perdidos! \n ")
+escreva( "Vamos lá, conquiste a melhor pontuação! \n")
+
+escreva("\n")
+escreva("Olha só! Há três caminhos distintos! \n")
+
+escreva("Qual você vai escolher? 1, 2 ou 3? \n ")
+leia (decisao)
+
+escreva("\n")
+
+escolha(decisao) {
+
+caso 1:
+escreva("Você entrou no caminho das sombras. \n")
+escreva("Este caminho é cercado por árvores antigas e sombrias, com raios de lua penetrando entre os galhos.\n")
+escreva("Parece ser o caminho mais misterioso e perigoso da floresta! \n")
+escreva("Nossa! Olha só essa criatura mágica guardiã do caminho!")
+escreva("Resolva o meu enigma! Se quiser passar por mim! Diz a criatura com cara de poucos amigos...\n")
+escreva("Quem sou eu? Tenho olhos, mas não vejo! Tenho boca, mas não falo! O que sou?\n")
+
+escreva("Atenção! Digite sua resposta em letras minúsculas. \n")
+leia(resp_enigma)
+
+escreva("\n")
+
+se(resp_enigma == "uma caveira") {
+escreva("Resposta Correta. Parabéns! \n")
+escreva("Você acaba de encontrar um baú escondido contendo uma gema preciosa que vale 100 pontos. \n")
+escreva("\n")
+escreva("Fim")
+pare
+
+} senao {
+
+escreva("Resposta Incorreta. Infelizmente você não encontrou os tesouros lendários e segredos perdidos da Floresta Sussurrante. \n")
+escreva("\n")
+escreva("Fim")
+pare
+}
+
+caso 2:
+escreva("Você entrou no caminho da luz. \n")
+escreva("Este caminho é iluminado por raios de sol que filtram entre as copas das árvores.\n")
+escreva("Parece ser o caminho mais seguro e reconfortante da floresta! \n")
+escreva("Nossa! Olha só essa ponte quebrada sobre o rio turbulento!")
+escreva("O que você vai fazer? Vai atravessar ou procurar um desvio seguro?...\n")
+escreva("Digite 'atravessar' para seguir ou 'desviar' para procurar um desvio seguro \n")
+escreva("Atenção! Digite sua resposta em letras minúsculas. \n")
+leia(resp_enigma)
+
+escreva("\n")
+
+se(resp_enigma == "atravessar") {
+escreva("Resposta Correta. Parabéns! Você acaba de encontrar uma fonte mágica que restaura sua saúde e adiciona 50 pontos à sua pontuação. \n")
+escreva("\n")
+escreva("Fim")
+pare
+
+}senao {
+
+escreva("Resposta Incorreta. Infelizmente você não encontrou os tesouros lendários e segredos perdidos da Floresta Sussurrante. \n")
+escreva("\n")
+escreva("Fim")
+pare
+}
+
+caso 3:
+escreva("Você entrou no caminho das criaturas. \n")
+escreva("Este caminho é repleto de sons estranhos e pegadas misteriosas no chão.\n")
+escreva(" Parece ser o caminho mais imprevisível e enigmático da floresta ! \n")
+escreva("Nossa! Olha só essa criatura mágica adormecida bloqueando o caminho!")
+escreva("O que você vai fazer? Vai tentar contornar a criatura ou acorda-la?...\n")
+escreva("Digite 'contornar' para tentar seguir ou 'acordar' para derrotá-la e se salvar \n")
+escreva("Atenção! Digite sua resposta em letras minúsculas. \n")
+leia(resp_enigma)
+
+escreva("\n")
+
+se(resp_enigma == "contornar") {
+escreva("Resposta Correta. Parabéns! Você encontrou a árvore encantada! Ela te concede uma habilidade especial de camuflagem, adicionando 75 pontos à sua pontuação.\n")
+escreva("\n")
+escreva("Fim")
+pare
+
+}senao {
+
+escreva("Resposta Incorreta. Infelizmente você não encontrou os tesouros lendários e segredos perdidos da Floresta Sussurrante. \n")
+escreva("\n")
+escreva("Fim")
+pare
+}
+            }
+
+
+
+}
+}
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 3543; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
